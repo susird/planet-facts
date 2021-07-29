@@ -1,28 +1,15 @@
 import React from 'react';
-import { Home } from '../Home';
-import { Planet } from '../Planet';
+import { Link } from 'react-router-dom';
+import Links from '../Links';
 import './styles.css';
-import {
-  Switch,
-  Route,
-  Link,
-} from "react-router-dom";
 
-export function Header () {
+function Header() {
   return (
     <div className="header">
-      <h3>The planets</h3>
-      <Switch>
-        <Route exact path="/">
-          <Link className="home-link" to="/all">Start</Link>
-        </Route>
-        <Route path="/:id" children={
-          <> 
-            <Planet />
-            <Home />
-          </>
-        } />
-      </Switch>
+      <Link className="planets-home-link" to="/">The planets</Link>
+      <Links />
     </div>
   )
 }
+
+export default Header;

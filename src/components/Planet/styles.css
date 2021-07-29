@@ -1,3 +1,24 @@
 .container-planet {
-  background-color: rgb(17, 17, 73);
+  background-image: url('/src/assets/background-stars.svg');
+  display: flex;
+  background-color: rgb(30, 30, 95);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  height: 100vh;
+  /* animation-name: blink;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; */
 }
+
+/* @keyframes blink {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+} */

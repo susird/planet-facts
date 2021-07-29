@@ -1,3 +1,24 @@
+.header {
+  background-color: transparent;
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.planets-home-link {
+  font-family: 'Antonio', sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  display: flex;
+  text-decoration: none;
+  text-transform: uppercase;
+  flex: 1;
+}
+
+
 .home-link {
   display: flex;
   color: black;
@@ -5,4 +26,5 @@
   align-items: flex-start;
   justify-content: space-around;
   align-content: flex-end;
+
 }

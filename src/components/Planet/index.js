@@ -1,11 +1,15 @@
 import React from 'react';
-import { Links } from '../Links';
+import { useParams } from 'react-router-dom';
+
 import './styles.css';
 
-export function Planet () {
+function Planet () {
+  let { id } = useParams();
   return (
     <main className="container-planet">
-      <Links/>
+      <p>holi:{id}</p>
     </main>
   )
 }
+
+export default Planet;
