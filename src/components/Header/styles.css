@@ -1,0 +1,8 @@
+.home-link {
+  display: flex;
+  color: black;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  align-content: flex-end;
+}
