@@ -1,5 +1,8 @@
-[
+{ 
+  "planets":
+  [
   {
+    "id": 1,
     "name": "Mercury",
     "color": "#DEF4FC",
     "overview": {
@@ -25,6 +28,7 @@
     }
   },
   {
+    "id": 2,
     "name": "Venus",
     "color": "#F7CC7F",
     "overview": {
@@ -50,6 +54,7 @@
     }
   },
   {
+    "id": 3,
     "name": "Earth",
     "color": "#545BFE",
     "overview": {
@@ -75,6 +80,7 @@
     }
   },
   {
+    "id": 4,
     "name": "Mars",
     "color": "#FF6A45",
     "overview": {
@@ -100,6 +106,7 @@
     }
   },
   {
+    "id": 5,
     "name": "Jupiter",
     "color": "#ECAD7A",
     "overview": {
@@ -125,6 +132,7 @@
     }
   },
   {
+    "id": 6,
     "name": "Saturn",
     "color": "#FCCB6B",
     "overview": {
@@ -150,6 +158,7 @@
     }
   },
   {
+    "id": 7,
     "name": "Uranus",
     "color": "#65F0D5",
     "overview": {
@@ -175,6 +184,7 @@
     }
   },
   {
+    "id": 8,
     "name": "Neptune",
     "color": "#497EFA",
     "overview": {
@@ -199,4 +209,5 @@
       "geology": "./assets/geology-neptune.png"
     }
   }
-]
+  ]
+}
