@@ -1,18 +1,17 @@
 .container {
-  background: url('./solar-system.jpg') center/cover no-repeat;
+  align-items: center;
+  background: url('./bg-planets.svg') center/cover no-repeat;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  text-align: center;
   height: 100vh;
+  justify-content: center;
+  text-align: center;
 }
 
 .container h1 {
-  font-family: 'Rajdhani', sans-serif;
-  font-weight: 100;
+  color: rgb(245, 245, 129);
+  font-family: 'Big Shoulders Display', cursive;
   font-size: 80px;
-  color: beige;
-  text-shadow: 1px 1px 8px black, 0 0 1em #705786, 0 0 0.2em #ececec;
+  font-weight: 100;
+  letter-spacing: 2px;
 }

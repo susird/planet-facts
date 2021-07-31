@@ -1,24 +1,96 @@
 .container-planet {
-  background-image: url('/src/assets/background-stars.svg');
-  display: flex;
-  background-color: rgb(30, 30, 95);
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
+  background-image: url('./background-stars.svg');
+  background-color: rgb(10 10 43);
   display: flex;
-  text-align: center;
   height: 100vh;
-  /* animation-name: blink;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate; */
+  justify-content: center;
+  width: 100%;
 }
 
-/* @keyframes blink {
-  0% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 1;
-  }
-} */
+.planet {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  padding: 0 60px;
+  width: 100%;
+}
+
+.planet-overview {
+  display: flex;
+  flex-direction: row;
+}
+
+.image-container {
+  flex: 2;
+  text-align: center;
+}
+
+.planet-image {
+  height: 350px;
+  width: 350px;
+}
+
+.overview {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.planet-name {
+  color: rgb(255, 255, 255);
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 50px;
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.planet-description {
+  color: rgb(191 186 186);
+  font-family: 'Mukta', sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 1.2;
+  max-width: 500px;
+  padding-bottom: 10px;
+}
+
+.planet-source {
+  color: rgb(192, 192, 192);
+  font-size: 12px;
+}
+
+.planet-facts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.fact {
+  border: 1px solid #757171;
+  height: 80px;
+  max-width: 150px;
+  padding: 15px;
+  width: 100%;
+}
+
+.fact-title {
+  color: rgb(191 186 186);
+  font-family: 'Mukta', sans-serif;
+  font-size: 10px;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.fact-description {
+  color: white;
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 20px;
+  letter-spacing: 1px; 
+  text-transform: uppercase;
+}

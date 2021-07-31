@@ -1,15 +1,16 @@
 .planets {
-  display: flex;
-  color: black;
-  flex-direction: row;
-  justify-content: space-around;
   align-items: flex-end;
-  list-style: none;
+  color: black;
+  display: flex;
   flex: 1;
+  flex-direction: row;
+  font-family: 'Mukta', sans-serif;
+  justify-content: space-around;
+  list-style: none;
 }
 
 .planet-link {
-  color: rgb(255, 255, 255);
+  color: rgb(210 207 207);
   font-size: 15px;
   text-decoration: none;
   text-transform: uppercase;

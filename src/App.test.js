@@ -1,8 +1,10 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('Should renders Home link', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const homeLink = screen.getByText(/the planets/i);
+  expect(homeLink).toBeInTheDocument();
+  const earthLink = screen.getByText(/earth/i);
+  expect(earthLink).toBeInTheDocument();
 });
