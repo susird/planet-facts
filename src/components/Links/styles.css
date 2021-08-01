@@ -19,6 +19,12 @@
 
 @media (max-width: 960px) {
   .planets {
-    display: none;
+    align-content: flex-start;
+    align-items: start;
+    background-color: #100e16cf;
+    flex-direction: column;
+    text-align: left;
+    padding: 10px;
+    width: 150px;
   }
 }

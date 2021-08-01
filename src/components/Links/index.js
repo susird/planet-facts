@@ -5,13 +5,13 @@ import { links } from '../../utils'
 
 function Links() {
   return (
-    <ul className="planets">
-      {links.map(link =>
-        <li key={link.to}>
-          <Link className="planet-link" to={link.to}>{link.name}</Link>
-        </li>
-      )}
-    </ul>
+      <ul className="planets">
+        {links.map(link =>
+          <li key={link.to}>
+            <Link className="planet-link" to={link.to}>{link.name}</Link>
+          </li>
+        )}
+      </ul>
   )
 }
 

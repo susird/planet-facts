@@ -10,7 +10,6 @@ function Planet() {
   useEffect(() => {
     const planetId = getPlanetId(id)
     fetch(`${URL_API}/${planetId}`).then((res) => res.json()).then((res) => {
-      console.log(id, res)
       setData(res);
     })
   }, [id])

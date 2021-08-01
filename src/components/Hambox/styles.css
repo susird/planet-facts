@@ -1,0 +1,28 @@
+.ham-box {
+  display: none;
+}
+
+@media (max-width: 960px) {
+  .ham-box {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fi-menu {
+    color: white;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .close-icon {
+    color: white;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+}

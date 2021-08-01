@@ -103,14 +103,26 @@
 }
 
 @media (max-width: 960px) {
+  .container-planet {
+    height: 100%;
+    min-height: 1500px;
+  }
   
   .planet {
     justify-content: center;
+    height: 100%;
+    min-height: 1500px;
+    padding: 10px;
   }
 
   .planet-overview {
     flex-direction: column;
     padding: 60px 0;
+  }
+
+  .planet-image {
+    max-width: 300px;
+    max-height: 300px;
   }
 
   .overview {
@@ -151,9 +163,9 @@
   }
 
   .fact-title {
-    font-size: 20px;
+    font-size: 16px;
   }
   .fact-description {
-    font-size: 38px;
+    font-size: 34px;
   }
 }
