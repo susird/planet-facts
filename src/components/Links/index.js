@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './styles.css';
-import { links } from '../../utils';
+import { links } from '../../utils'
 
 function Links() {
   return (

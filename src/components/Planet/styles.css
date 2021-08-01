@@ -13,7 +13,7 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
-  justify-content: center;
+  justify-content: space-evenly;
   padding: 0 60px;
   width: 100%;
 }
@@ -21,10 +21,12 @@
 .planet-overview {
   display: flex;
   flex-direction: row;
+  padding: 50px;
 }
 
 .image-container {
-  flex: 2;
+  flex: 1;
+  margin-right: 100px;
   text-align: center;
 }
 
@@ -38,6 +40,8 @@
   display: flex;
   flex: 1;
   flex-direction: column;
+  font-family: 'Mukta', sans-serif;
+  justify-content: center;
 }
 
 .planet-name {
@@ -51,17 +55,20 @@
 
 .planet-description {
   color: rgb(191 186 186);
-  font-family: 'Mukta', sans-serif;
   font-size: 14px;
   font-weight: 100;
   line-height: 1.2;
-  max-width: 500px;
+  max-width: 400px;
   padding-bottom: 10px;
 }
 
 .planet-source {
-  color: rgb(192, 192, 192);
+  color: #d8cfcf;
   font-size: 12px;
+}
+
+.planet-source-link {
+  color: #cacaca;
 }
 
 .planet-facts {
@@ -93,4 +100,60 @@
   font-size: 20px;
   letter-spacing: 1px; 
   text-transform: uppercase;
+}
+
+@media (max-width: 960px) {
+  
+  .planet {
+    justify-content: center;
+  }
+
+  .planet-overview {
+    flex-direction: column;
+    padding: 60px 0;
+  }
+
+  .overview {
+    text-align: center;
+    align-items: center;
+  }
+
+  .planet-description {
+    font-size: 20px;
+    line-height: 2;
+    max-width: 650px;
+    padding-bottom: 30px;
+  }
+
+  .planet-source {
+    font-size: 19px;
+  }
+
+  .image-container {
+    margin-right: unset;
+    margin-bottom: 50px;
+  }
+
+  .planet-facts {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .fact {
+    flex-direction: row;
+    max-width: unset;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+
+  .fact-title {
+    font-size: 20px;
+  }
+  .fact-description {
+    font-size: 38px;
+  }
 }

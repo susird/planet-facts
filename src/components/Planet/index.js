@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { URL_API, getPlanetId } from '../Planet/utils'
-
 import './styles.css';
 
 function Planet() {
@@ -27,7 +26,7 @@ function Planet() {
             <aside className="overview">
               <h4 className="planet-name">{data.name}</h4>
               <p className="planet-description">{data.overview.content}</p>
-              <p className="planet-source">Source: <a href={data.overview.source}>Wikipedia</a></p>
+              <p className="planet-source">Source: <a className="planet-source-link" href={data.overview.source}>Wikipedia</a></p>
             </aside>
           </article>
           <article className="planet-facts">

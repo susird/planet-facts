@@ -15,3 +15,10 @@
   text-decoration: none;
   text-transform: uppercase;
 }
+
+
+@media (max-width: 960px) {
+  .planets {
+    display: none;
+  }
+}
