@@ -6,15 +6,14 @@ import './styles.css';
 
 function Header() {
   const isPageWide = window.matchMedia('(max-width: 960px)').matches;
-  console.log(isPageWide)
   return (
-    <div className="header">
+    <header className="header">
       <Link className="planets-home-link" to="/">The planets</Link>
       {isPageWide ?
         <HamBox /> :
         <Links /> 
       }
-    </div>
+    </header>
   )
 }
 
