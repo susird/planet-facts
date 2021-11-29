@@ -25,9 +25,6 @@
 
 ## What's Included
 
-This example will setup an example Create React App that has the
-following features:
-
 - [package.json](./package.json) to allow imports 
 - [components](./src/components) para encontrar cada componente del proyecto
 - [assets](./public/assets) to serve the images of each planet
