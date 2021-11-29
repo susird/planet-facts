@@ -26,7 +26,7 @@
 ## What's Included
 
 - [package.json](./package.json) to allow imports 
-- [components](./src/components) para encontrar cada componente del proyecto
+- [components](./src/components) to find each component of the project
 - [assets](./public/assets) to serve the images of each planet
 
 
